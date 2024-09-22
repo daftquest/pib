@@ -4,9 +4,9 @@ html {
 body {
      background-color: #0F0F0F;
      background-image: url(images/ibspace.jpg);
+     background-size: 100%;
      background-size: cover;
      background-repeat: no-repeat;
-     background-height: 100%;
 }
 .centerlogo {
      top: 50%;
