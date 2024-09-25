@@ -1,40 +1,52 @@
 html {
-     height: 100%;
-}
-body {
-     background-color: #0F0F0F;
-     background-image: url(images/ibspace.webp);
-     background-size: 100%;
-     background-size: cover;
-     background-repeat: no-repeat;
+ height: 100%;
+ width: 100%;
+ background-color: #0F0F0F;
+ background: url(images/ibspace.webp);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ background-origin: content-box;
 }
 .centerlogo {
-     top: 50%;
-     left: 50%;
-     right: 0;
-     bottom: 0;
-     position: absolute;
-     transform: translate(-50%, -50%);
-     height: 33.33vh;
-     width: 33.33vw;
-     min-height: 75px;
-     min-width: 330px;
+ top: 50%;
+ left: 50%;
+ bottom: 0;
+ right: 0;
+ transform: translate(-50%, -50%);
+ position: absolute;
+ max-width: 75vw;
+ max-height: 35vh;
 }
-.sbuttons {
-     display: flex;
-     top: 77.5%;
-     left: 50%;
-     position: absolute;
-     transform: translate(-50%, -77.5%);
+button.soc {
+ display: flex;
+ transition: all 0.2s ease, visibility 0s;
+ border-radius: 100px;
+ background: #E00971;
+ border: 5px solid #000000;
+ padding: 10px;
+ text-align: center;
+ margin: 0 0.3vw;
 }
-ul {
-     list-style-type: none;
-     padding-left: 0;
-     display: inline-block;
+button.soc:hover {
+ background: #22C5DD;
+ cursor:pointer;
 }
-ul a {
-     margin: 0 0.78125vw;
+.socbar {
+ display: flex;
+ position: absolute;
+ top: 80%;
+ left: 50%;
+ transform: translate(-50%, -80%);
+ padding-left: 0;
+ margin: 0 0.25vw;
+ justify-content: evenly;
+}
+.socbar:after {
+ content: "";
+ clear: both;
+ display: table;
 }
 li {
-     float: left;
+ display: inline-block;
 }
