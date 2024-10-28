@@ -39,7 +39,7 @@ button.soc2 {
  display: flex;
  transition: all 0.2s ease, visibility 0s;
  border-radius: 25px;
- background: #000000;
+ background: #080808;
  background: url(images/posterbbgs/50p.webp);
  background-repeat: no-repeat;
  background-position: center;
@@ -75,6 +75,11 @@ button.soc2:hover {
  justify-content: evenly;
 }
 .socbar:after {
+ content: "";
+ clear: both;
+ display: table;
+}
+.socbar2:after {
  content: "";
  clear: both;
  display: table;
