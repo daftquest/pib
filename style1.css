@@ -43,7 +43,6 @@ button.soc2 {
  background: url(images/posterbbgs/50p.webp);
  background-repeat: no-repeat;
  background-position: center;
- background-attachment: fixed;
  background-size: cover;
  border: 5px solid #000000;
  padding: 10px;
