@@ -32,7 +32,26 @@ button.soc {
  margin: 0 0.3vw;
 }
 button.soc:hover {
- background: #22C5DD;
+ background: #a80755;
+ cursor:pointer;
+}
+button.soc2 {
+ display: flex;
+ transition: all 0.2s ease, visibility 0s;
+ border-radius: 25px;
+ background: #000000;
+ background: url(images/posterbbgs/50p.webp);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-attachment: fixed;
+ background-size: cover;
+ border: 5px solid #000000;
+ padding: 10px;
+ text-align: center;
+ margin: 0 0.3vw;
+}
+button.soc2:hover {
+ background: #000000;
  cursor:pointer;
 }
 .socbar {
@@ -45,6 +64,16 @@ button.soc:hover {
  margin: 0 0.25vw;
  justify-content: evenly;
 }
+.socbar2 {
+ display: flex;
+ position: absolute;
+ top: 15%;
+ left: 50%;
+ transform: translate(-50%, -15%);
+ padding-left: 0;
+ margin: 0 0.25vw;
+ justify-content: evenly;
+}
 .socbar:after {
  content: "";
  clear: both;
@@ -52,6 +81,9 @@ button.soc:hover {
 }
 li {
  display: inline-block;
+}
+.buttonp {
+ font-family: Verdana, sans-serif;
 }
 .bottomright {
  position: absolute;

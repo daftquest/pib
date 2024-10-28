@@ -1,0 +1,80 @@
+html {
+ height: 100%;
+ width: 100%;
+ background-color: #000000;
+ background: url(images/bg.24.11.2.webp);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ background-origin: content-box;
+}
+body {
+ font-family: Verdana, sans-serif;
+}
+.centerlogo {
+ top: 45%;
+ left: 50%;
+ bottom: 0;
+ right: 0;
+ transform: translate(-50%, -45%);
+ position: absolute;
+ max-width: 62.5vw;
+ max-height: 55vh;
+}
+iframe {
+ top: 87.5%;
+ left: 50%;
+ bottom: 0;
+ right: 0;
+ transform: translate(-50%, -87.5%);
+ position: absolute;
+ max-width: 62.5vw;
+ max-height: 12.5vh;
+}
+button.soc {
+ display: flex;
+ transition: all 0.2s ease, visibility 0s;
+ border-radius: 25px;
+ background: #E00971;
+ border: 5px solid #000000;
+ padding: 2px 10px 2px 10px;
+ text-align: center;
+ margin: 0 0.3vw;
+}
+button.soc:hover {
+ background: #a80755;
+ cursor:pointer;
+}
+.socbar {
+ display: flex;
+ position: absolute;
+ top: 10%;
+ left: 50%;
+ transform: translate(-50%, -10%);
+ padding-left: 0;
+ margin: 0 0.25vw;
+ justify-content: evenly;
+}
+.socbar:after {
+ content: "";
+ clear: both;
+ display: table;
+}
+li {
+ display: inline-block;
+}
+.buttonp {
+ font-family: Verdana, sans-serif;
+}
+.bottomright {
+ position: absolute;
+ bottom: 0;
+ right: 0;
+ margin: 0;
+}
+.bottomleft {
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ margin: 0;
+}
