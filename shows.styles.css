@@ -35,14 +35,14 @@ button.soc {
  display: flex;
  transition: all 0.2s ease, visibility 0s;
  border-radius: 25px;
- background: #22C5DD;
- border: 5px solid #000000;
+ background: #831711;
+ border: 5px solid #450808;
  padding: 1px 20px 1px 20px;
  text-align: center;
  margin: 0 0.3vw;
 }
 button.soc:hover {
- background: #75D9F0;
+ background: #AC211B;
  cursor:pointer;
 }
 .socbar {
