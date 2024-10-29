@@ -27,7 +27,7 @@ button.soc {
  border-radius: 100px;
  background: #E00971;
  border: 5px solid #000000;
- padding: 10px;
+ padding: 12px;
  text-align: center;
  margin: 0 0.3vw;
 }
@@ -45,7 +45,7 @@ button.soc2 {
  background-position: center;
  background-size: cover;
  border: 5px solid #000000;
- padding: 10px;
+ padding: 12px;
  text-align: center;
  margin: 0 0.3vw;
 }
@@ -56,9 +56,9 @@ button.soc2:hover {
 .socbar {
  display: flex;
  position: absolute;
- top: 80%;
+ top: 90%;
  left: 50%;
- transform: translate(-50%, -80%);
+ transform: translate(-50%, -90%);
  padding-left: 0;
  margin: 0 0.25vw;
  justify-content: evenly;
@@ -66,9 +66,9 @@ button.soc2:hover {
 .socbar2 {
  display: flex;
  position: absolute;
- top: 15%;
+ top: 10%;
  left: 50%;
- transform: translate(-50%, -15%);
+ transform: translate(-50%, -10%);
  padding-left: 0;
  margin: 0 0.25vw;
  justify-content: evenly;
