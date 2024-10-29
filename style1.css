@@ -1,8 +1,8 @@
 html {
  height: 100%;
  width: 100%;
- background-color: #0F0F0F;
- background: url(images/ibspace2.webp);
+ background-color: #22c5de;
+ background-image: url(images/bgs/ibspace.webp);
  background-repeat: no-repeat;
  background-attachment: fixed;
  background-size: cover;
