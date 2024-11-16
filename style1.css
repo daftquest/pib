@@ -40,12 +40,12 @@ button.men {
  transition: all 0.2s ease, visibility 0s;
  border-radius: 25px;
  background: #080808;
- background: url(images/posterbbgs/50p.webp);
+ background: url(images/bbgs/gallery.webp);
  background-repeat: no-repeat;
  background-position: center;
  background-size: cover;
  border: 5px solid #000000;
- padding: 12px;
+ padding: 12px 32px;
  text-align: center;
  margin: 0 0.3vw;
 }

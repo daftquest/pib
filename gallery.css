@@ -1,0 +1,112 @@
+html {
+ height: 100%;
+ width: 100%;
+ background-color: #0D6473;
+ background-image: url(images/bgs/ibspace.webp);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ background-origin: content-box;
+}
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ transition: 0.2s linear;
+}
+
+body {
+ font-family: Verdana, sans-serif;
+}
+
+.header {
+ background-color: #000000;
+ justify-content: center;
+ text-align: center;
+ padding: 2rem 5%;
+ margin-bottom:1rem;
+}
+
+.container {
+ padding: 2rem 5%;
+}
+
+.container .image-container {
+ columns: 15rem 3;
+ gap: 1.4rem;
+}
+
+.container .image-container img {
+ width: 100%;
+ margin-bottom: 1rem;
+}
+
+.container .image-container img:hover {
+ transform: scale(1.01);
+}
+
+.container .poster-container {
+ columns: 25rem 4;
+ justify-content: start;
+ gap: 1.4rem;
+}
+
+.container .poster-container img {
+ width: 100%;
+ margin-bottom: 1rem;
+}
+
+.container .poster-container img:hover {
+ transform: scale(1.01);
+}
+
+.container .menubar {
+ display: flex;
+ justify-content: center;
+}
+
+.container .menubar:after {
+ content: "";
+ clear: both;
+ display: table;
+}
+
+li {
+ display: inline-block;
+}
+
+button.menu {
+ display: flex;
+ transition: all 0.2s ease, visibility 0s;
+ border-radius: 100px;
+ background: #e40770;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ border: 5px solid #000000;
+ padding: 15px;
+ text-align: center;
+ margin: 0 0.3vw;
+}
+
+button.menu:hover {
+ background: #F95DA8;
+ cursor:pointer;
+}
+
+.buttonp {
+ font-family: Verdana, sans-serif;
+ color: black;
+}
+
+.footer {
+ position: relative;
+}
+
+.bottomright {
+ position: absolute;
+ bottom: 0;
+ right: 0;
+ margin: 0;
+}
