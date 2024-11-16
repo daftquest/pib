@@ -2,10 +2,22 @@ html {
  height: 100%;
  width: 100%;
  background-color: #0D6473;
- background-image: url(images/bgs/ibspace.webp);
  background-repeat: no-repeat;
  background-attachment: fixed;
+ background-size: cover;
  background-origin: content-box;
+}
+
+@media (max-width: 1500px) {
+ html {
+  background-image: url(images/bgs/ibspacemobile.webp);
+ }
+}
+
+@media (min-width: 1501px) {
+ html {
+  background-image: url(images/bgs/ibspace.webp);
+ }
 }
 
 * {
