@@ -52,32 +52,21 @@
     <h1 style="color:white;font-family:sans-serif;">PHOTO GALLERY</h1>
    </div>
    <div class="image-container">
-    <img
-     srcset="images/band/responsive/9-400w.webp 400w,
-             images/band/responsive/9-600w.webp 600w,
-             images/band/responsive/9-800w.webp 800w,
-             images/band/responsive/9-1000w.webp 1000w,
-             images/band/responsive/9-1200w.webp 1200w,
-             images/band/responsive/9-1600w.webp 1600w,
-             images/band/responsive/9-2000w.webp 2000w"
-     sizes="(max-width: 400px) 400px,
-            (max-width: 600px) 600px,
-            (max-width: 800px) 800px,
-            (max-width: 1000px) 1000px,
-            (max-width: 1200px) 1200px,
-            (max-width: 1600px) 1600px,
-            (max-width: 2000px) 2000px"
-     src="images/band/9.webp" width="2048" height="1536" alt="Image of Itsy Bitsy standing in the middle of a street">
-    <img
-     srcset="images/band/responsive/11-400w.webp 400w,
-             images/band/responsive/11-600w.webp 600w,
-             images/band/responsive/11-800w.webp 800w,
-             images/band/responsive/11-1000w.webp 1000w"
-     sizes="(max-width: 400px) 400px,
-            (max-width: 600px) 600px,
-            (max-width: 800px) 800px,
-            (max-width: 1000px) 1000px"
-     src="images/band/11.webp" loading="lazy" width="1099" height="1099" alt="Image of Itsy Bitsy sitting down by a wall in a shopping center.">
+    <picture>
+     <source media="(max-width:400px)" srcset="images/band/responsive/9-400w.webp">
+     <source media="(max-width:600px)" srcset="images/band/responsive/9-600w.webp">
+     <source media="(max-width:800px)" srcset="images/band/responsive/9-800w.webp">
+     <source media="(max-width:1000px)" srcset="images/band/responsive/9-1000w.webp">
+     <source media="(max-width:1200px)" srcset="images/band/responsive/9-1200w.webp">
+     <source media="(max-width:1600px)" srcset="images/band/responsive/9-1600w.webp">
+     <img src="images/band/9.webp" width="2048" height="1536" alt="Image of Itsy Bitsy standing in the middle of a street.">
+    </picture>
+    <picture>
+     <source media="(max-width:400px)" srcset="images/band/responsive/11-400w.webp">
+     <source media="(max-width:600px)" srcset="images/band/responsive/11-600w.webp">
+     <source media="(max-width:800px)" srcset="images/band/responsive/11-800w.webp">
+     <img src="images/band/11.webp" loading="lazy" width="1099" height="1099" alt="Image of Itsy Bitsy sitting down by a wall in a shopping center.">
+    </picture>
     <img
      src="images/band/10.webp" loading="lazy" width="1852" height="1125" alt="Head-on shot image of Itsy Bitsy sitting down by a wall in a shopping center.">
     <img
