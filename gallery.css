@@ -1,7 +1,7 @@
 html {
  height: 100%;
  width: 100%;
- background-color: #0D6473;
+ background-color: #0B363E;
  background-repeat: no-repeat;
  background-attachment: fixed;
  background-size: cover;
@@ -10,16 +10,12 @@ html {
 
 @media screen and (max-width: 700px) {
  .seclinks {display:none;}
- .
+ #photos {background-color: #0D6473;}
+ #posters {background-color: #0B363E;}
+ #videos {background-color: #080808;}
 }
 
-@media (max-width: 1500px) {
- html {
-  background-image: url(images/bgs/ibspacemobile.webp);
- }
-}
-
-@media (min-width: 1501px) {
+@media (min-width: 701px) {
  html {
   background-image: url(images/bgs/ibspace.webp);
  }
