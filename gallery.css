@@ -112,12 +112,15 @@ body {
  overflow: hidden;
 }
 
+.seclinksb {
+ float: right;
+}
+
 .seclinks a {
  margin: 1rem;
  transition: all 0.2s ease, visibility 0s;
  text-decoration: none;
  color: white;
- float: right;
 }
 
 .seclinks a:hover {

@@ -2,7 +2,7 @@ html {
  height: 100%;
  width: 100%;
  background-color: #0D6473;
- background-image: url(../images/bgs/ibspace.webp);
+ background-image: url(images/bgs/ibspace.webp);
  background-repeat: no-repeat;
  background-attachment: fixed;
  background-size: cover;
@@ -40,7 +40,7 @@ button.men {
  transition: all 0.2s ease, visibility 0s;
  border-radius: 25px;
  background: #080808;
- background: url(../images/bbgs/gallery.webp);
+ background: url(images/bbgs/gallery.webp);
  background-repeat: no-repeat;
  background-position: center;
  background-size: cover;
