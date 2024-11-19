@@ -10,6 +10,7 @@ html {
 
 @media screen and (max-width: 700px) {
  .seclinks {display:none;}
+ #navbar {background-color:#000000;}
  #photos {background-color:#0D6473;}
  #posters {background-color: #0B363E;}
  #videos {background-color: #080808;}
@@ -115,10 +116,6 @@ body {
  overflow: hidden;
 }
 
-.seclinks a .active {
- color: #000000;
-}
-
 .seclinks ul {
  justify-self: right;
  white-space: nowrap;
@@ -136,10 +133,6 @@ body {
 
 .seclinks a:hover {
  color: lightgray;
-}
-
-.seclinks a:active {
- color: black;
 }
 
 .seclinks li {
