@@ -111,22 +111,16 @@ body {
 .seclinks {
  width: 50%;
  float: right;
+ display: flex;
  align-self: center;
- justify-self: center;
+ justify-content: right;
+ white-space: nowrap;
  overflow: hidden;
 }
 
-.seclinks ul {
- justify-self: right;
- white-space: nowrap;
-}
-
-.seclinks li {
+.seclinks a {
  margin: 1rem;
  transition: all 0.2s ease, visibility 0s;
-}
-
-.seclinks a {
  text-decoration: none;
  color: white;
 }
