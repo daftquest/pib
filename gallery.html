@@ -34,6 +34,16 @@
   <meta name="theme-color" content="#ffffff">
  </head>
  <body>
+  <script>
+   function myFunction() {
+    var x = document.getElementById("seclinks");
+    if (x.className === "seclinks") {
+     x.className += " responsive";
+    } else {
+     x.className = "topnav";
+    }
+   }
+  </script>
   <div class="container" id="navbar" style="background-color:#000000;padding:1.5rem;">
    <div class="menubar">
     <div class="pagelinks">
@@ -48,7 +58,10 @@
      </ul>
     </div>
     <div class="seclinks">
-     <div class="seclinksb">
+     <a href="javascript:void(0);" id="ham" style="float:right;margin:1rem;"onclick="myFunction()">
+      <img src="images/hamburg.svg" width="25" height="25">
+     </a>
+     <div class="seclinksb" id="link">
       <a href="#photos"><b>PHOTOS</b></a>
       <a href="#posters"><b>POSTERS</b></a>
       <a href="#videos"><b>VIDEOS</b></a>
@@ -56,6 +69,16 @@
     </div>
    </div>
   </div>
+  <script>
+  function myFunction() {
+   var x = document.getElementById("link");
+   if (x.style.display === "inline-block") {
+     x.style.display = "none";
+   } else {
+     x.style.display = "inline-block";
+   }
+  }
+ </script>
   <section>
   <div class="container" id="photos" style="padding-bottom:0;">
    <div class="header">
@@ -233,6 +256,14 @@
      <source media="(max-width:1000px)" srcset="images/showposters/responsive/canyonposter2hd-1000w.webp">
      <source media="(max-width:1200px)" srcset="images/showposters/responsive/canyonposter2hd-1200w.webp">
      <img src="images/showposters/canyonposter2hd.webp" loading="lazy" width="1440" height="1800" alt="Scanned image of a promotional poster for Itsy Bitsy's concert for Canyon's birthday on June 16th, 2023.">
+    </picture>
+    <picture>
+     <source media="(max-width:400px)" srcset="images/showposters/responsive/canyonposter3hd-400w.webp">
+     <source media="(max-width:600px)" srcset="images/showposters/responsive/canyonposter3hd-600w.webp">
+     <source media="(max-width:800px)" srcset="images/showposters/responsive/canyonposter3hd-800w.webp">
+     <source media="(max-width:1000px)" srcset="images/showposters/responsive/canyonposter3hd-1000w.webp">
+     <source media="(max-width:1200px)" srcset="images/showposters/responsive/canyonposter3hd-1200w.webp">
+     <img src="images/showposters/canyonposter3hd.webp" loading="lazy" width="1440" height="1800" alt="Scanned image of a promotional poster for Itsy Bitsy's concert for Canyon's birthday on June 16th, 2023. Design and art by Canyon.">
     </picture>
     <picture>
      <source media="(max-width:400px)" srcset="images/showposters/responsive/canyonposterhd-400w.webp">
