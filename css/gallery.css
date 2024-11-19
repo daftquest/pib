@@ -10,9 +10,9 @@ html {
 
 @media screen and (max-width: 700px) {
  .seclinks {display:none;}
- #photos {background-color:#0D6473;background-image:url(../images/bgs/ibspace.webp);}
- #posters {background-color: #0B363E;background-image:url(../images/bgs/ibspace.webp);}
- #videos {background-color: #080808;background-image:url(../images/bgs/ibspace.webp);}
+ #photos {background-color:#0D6473;}
+ #posters {background-color: #0B363E;}
+ #videos {background-color: #080808;}
 }
 
 @media (min-width: 701px) {
