@@ -34,28 +34,14 @@
   <meta name="theme-color" content="#ffffff">
  </head>
  <body>
-  <script>
-   function myFunction() {
-    var x = document.getElementById("seclinks");
-    if (x.className === "seclinks") {
-     x.className += " responsive";
-    } else {
-     x.className = "topnav";
-    }
-   }
-  </script>
   <div class="container" id="navbar" style="background-color:#000000;padding:1.5rem;">
    <div class="menubar">
     <div class="pagelinks">
-     <ul>
-      <li>
-       <a href="./" style="text-decoration:none;" aria-label="The home page of Itsy Bitsy's website" target="_self">
-        <button class="menu" aria-label="Click to return to the home page of Itsy Bitsy's website.">
-         <p style="font-size:24px;" class="buttonp"><b>HOME</b></p>
-        </button>
-       </a>
-      </li>
-     </ul>
+     <a href="./" style="text-decoration:none;" aria-label="The home page of Itsy Bitsy's website" target="_self">
+      <button class="menu" aria-label="Click to return to the home page of Itsy Bitsy's website.">
+       <p style="font-size:24px;" class="buttonp"><b>HOME</b></p>
+      </button>
+     </a>
     </div>
     <div class="seclinks">
      <a href="javascript:void(0);" id="ham" style="float:right;margin:1rem;"onclick="myFunction()">
@@ -72,10 +58,13 @@
   <script>
   function myFunction() {
    var x = document.getElementById("link");
+   var y = document.getElementById("pageb");
    if (x.style.display === "inline-block") {
      x.style.display = "none";
+     y.style.display = "inline-block";
    } else {
      x.style.display = "inline-block";
+     y.style.display = "none";
    }
   }
  </script>

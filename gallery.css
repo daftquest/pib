@@ -138,6 +138,7 @@ body {
 
 .pagelinks button {
  display: flex;
+ float: left;
  transition: all 0.2s ease, visibility 0s;
  border-radius: 100px;
  border-style: none;
