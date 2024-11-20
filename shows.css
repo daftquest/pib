@@ -8,26 +8,48 @@ html {
  background-size: cover;
  background-origin: content-box;
 }
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+@media screen and (min-width: 1100px) {
+ .container .poster-container {max-width:50%;}
+}
+@media screen and (max-width: 1279px) {
+ .container .logo-container {max-width:75%;}
+}
 body {
  font-family: Verdana, sans-serif;
 }
-.centerposter {
- top: 45%;
- left: 50%;
- bottom: 0;
- right: 0;
- transform: translate(-50%, -45%);
- position: absolute;
- max-width: 75vw;
- max-height: 55vh;
+.container {
+ padding: 2rem 5%;
+ display: flex;
+}
+.container .poster-container {
+ width: 100%;
+ columns: 15rem 1;
+ gap: 1rem;
+}
+.container .poster-container img {
+ width: 100%;
+ height: auto;
+}
+.container .logo-container {
+ columns: 10rem 2;
+ gap: 1.4rem;
+}
+.container .logo-container img {
+ width: 100%;
+ height: auto;
+ margin-bottom: 1rem;
+ display: block;
 }
 button.men {
- display: flex;
- transition: all 0.2s ease, visibility 0s;
  border-radius: 25px;
  background: #831711;
  border: 5px solid #450808;
- padding: 1px 20px 1px 20px;
+ padding: 15px 20px;
  text-align: center;
  margin: 0 0.3vw;
 }
@@ -35,39 +57,8 @@ button.men:hover {
  background: #AC211B;
  cursor:pointer;
 }
-.menbar {
- display: flex;
- position: absolute;
- top: 10%;
- left: 50%;
- transform: translate(-50%, -10%);
- padding-left: 0;
- margin: 0 0.25vw;
- justify-content: evenly;
-}
-.menbar:after {
- content: "";
- clear: both;
- display: table;
-}
-.socbar {
- display: flex;
- position: absolute;
- top: 90%;
- left: 50%;
- transform: translate(-50%, -90%);
- padding-left: 0;
- margin: 0 1vw;
- font-size: 24px;
-}
-.socbar:after {
- content: "";
- clear: both;
- display: table;
-}
 button.soc {
  display: flex;
- transition: all 0.2s ease, visibility 0s;
  border-radius: 100px;
  background: #ffffff;
  border: 5px solid #000000;
@@ -79,21 +70,15 @@ button.soc:hover {
  background: #a80755;
  cursor:pointer;
 }
-li {
- display: inline-block;
-}
 .buttonp {
  font-family: Verdana, sans-serif;
 }
-.bottomright {
- position: absolute;
+.footer {
+ position: sticky;
+ align-content: center;
  bottom: 0;
- right: 0;
- margin: 0;
 }
-.bottomleft {
- position: absolute;
+.bottomright {
  bottom: 0;
- left: 0;
  margin: 0;
 }
