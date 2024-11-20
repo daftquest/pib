@@ -44,8 +44,8 @@ button.men {
  background-position: center;
  background-size: cover;
  border: 5px solid #000000;
- font-size: 24px;
- padding: 0 16px;
+ font-size: 20px;
+ padding: 2px 18px;
  text-align: center;
  margin: 0 0.3vw;
 }
