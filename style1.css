@@ -23,13 +23,13 @@ body {
 }
 button.soc {
  display: flex;
- transition: all 0.2s ease, visibility 0s;
  border-radius: 100px;
  background: #E00971;
  border: 5px solid #000000;
  padding: 12px;
  text-align: center;
  margin: 0 clamp(4px, 0.3vw, 2vw);
+ font-size: 24px;
 }
 button.soc:hover {
  background: #a80755;
@@ -37,7 +37,6 @@ button.soc:hover {
 }
 button.men {
  display: flex;
- transition: all 0.2s ease, visibility 0s;
  border-radius: 25px;
  background: #080808;
  background: url(images/bbgs/gallery.webp);
@@ -45,7 +44,8 @@ button.men {
  background-position: center;
  background-size: cover;
  border: 5px solid #000000;
- padding: 12px 32px;
+ font-size: 24px;
+ padding: 0 16px;
  text-align: center;
  margin: 0 0.3vw;
 }
