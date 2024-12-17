@@ -2,7 +2,7 @@ html {
  height: 100%;
  width: 100%;
  background-color: #000000;
- background: url(images/bgs/bg.24.11.2.webp);
+ background: url(images/bgs/ibspace.webp);
  background-repeat: no-repeat;
  background-attachment: fixed;
  background-size: cover;
@@ -10,7 +10,6 @@ html {
 }
 * {
  margin: 0;
- padding: 0;
  box-sizing: border-box;
 }
 @media screen and (min-width: 1100px) {
@@ -22,39 +21,54 @@ html {
 body {
  font-family: Verdana, sans-serif;
 }
+.header {
+ justify-content: center;
+ text-align: center;
+ padding-bottom: 2rem;
+}
+.header h1 {
+ font-size: 30px;
+}
 .container {
  padding: 2rem 5%;
- display: flex;
+ justify-content: center;
+ text-align: center;
 }
 .container .poster-container {
  width: 100%;
- columns: 15rem 1;
  gap: 1rem;
 }
 .container .poster-container img {
  width: 100%;
  height: auto;
+ padding-bottom: 1rem;
 }
 .container .logo-container {
- columns: 10rem 2;
- gap: 1.4rem;
+ columns: 15rem 2;
+ display: flex;
+ gap: 0.5rem;
+ padding-bottom: 0;
+ justify-content: center;
+ text-align: center;
 }
 .container .logo-container img {
  width: 100%;
+ max-width: 45vw;
  height: auto;
  margin-bottom: 1rem;
  display: block;
 }
 button.men {
- border-radius: 25px;
- background: #831711;
- border: 5px solid #450808;
- padding: 15px 20px;
+ display: flex;
+ border-radius: 100px;
+ border-style: none;
+ background: #e40770;
+ padding: 8px 10px;
  text-align: center;
- margin: 0 0.3vw;
+ margin: 0.3vw;
 }
 button.men:hover {
- background: #AC211B;
+ background: #F95DA8;
  cursor:pointer;
 }
 button.soc {

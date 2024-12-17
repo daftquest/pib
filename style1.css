@@ -35,21 +35,34 @@ button.soc:hover {
  background: #a80755;
  cursor:pointer;
 }
+.container {
+ padding: 2rem 5%;
+ display: flex;
+}
 button.men {
  display: flex;
  border-radius: 25px;
  background: #080808;
- background: url(images/bbgs/gallery.webp);
  background-repeat: no-repeat;
  background-position: center;
  background-size: cover;
  border: 5px solid #000000;
  font-size: 18px;
- padding: 4px 28px;
+ padding: 4px 20px;
  text-align: center;
- margin: 0 0.3vw;
+ margin: 0 1vw;
 }
-button.men:hover {
+#shows {
+ background-image: url(images/bbgs/50p.webp);
+}
+#shows:hover {
+ background: #000000;
+ cursor:pointer;
+}
+#gallery {
+ background-image:url(images/bbgs/gallery.webp);
+}
+#gallery:hover {
  background: #000000;
  cursor:pointer;
 }

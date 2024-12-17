@@ -1,7 +1,7 @@
 html {
  height: 100%;
  width: 100%;
- background-color: #0B363E;
+ background-color: #720330;
  background-repeat: no-repeat;
  background-attachment: fixed;
  background-size: cover;
@@ -39,9 +39,8 @@ body {
 .header {
  justify-content: center;
  text-align: center;
- padding: 2rem 5%;
- margin: 1rem;
- margin-bottom: 0;
+ padding: 1rem 5%;
+ margin-bottom:1rem;
 }
 
 .header h1 {
@@ -154,6 +153,10 @@ body {
 .buttonp {
  font-family: Verdana, sans-serif;
  color: black;
+}
+
+.music-title {
+ text-decoration: none;
 }
 
 .footer {
