@@ -3,7 +3,7 @@
     xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://itsybitsyband.com</loc>
-    <lastmod>2024-12-16</lastmod>
+    <lastmod>2024-12-22</lastmod>
     <image:image>
       <image:loc>https://itsybitsyband.com/images/og/itsybitsyshar2.png</image:loc>
     </image:image>
@@ -12,15 +12,25 @@
     </image:image>
   </url>
   <url>
+    <loc>https://itsybitsyband.com/music</loc>
+    <lastmod>2024-12-22</lastmod>
+    <image:image>
+      <image:loc>https://itsybitsyband.com/images/og/musicshar.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://itsybitsyband.com/images/covers/ep.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://itsybitsyband.com/shows</loc>
-    <lastmod>2024-12-16</lastmod>
+    <lastmod>2024-12-22</lastmod>
     <image:image>
       <image:loc>https://itsybitsyband.com/images/og/showshar.png</image:loc>
     </image:image>
   </url>
   <url>
     <loc>https://itsybitsyband.com/gallery</loc>
-    <lastmod>2024-12-16</lastmod>
+    <lastmod>2024-12-22</lastmod>
     <image:image>
       <image:loc>https://itsybitsyband.com/images/og/galleryshar.png</image:loc>
     </image:image>

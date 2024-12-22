@@ -1,7 +1,7 @@
 html {
  height: 100%;
  width: 100%;
- background-color: #720330;
+ background-color: #0D6473;
  background-repeat: no-repeat;
  background-attachment: fixed;
  background-size: cover;
@@ -22,9 +22,7 @@ html {
 }
 
 #navbar {background-color:#000000;}
-#photos {background-color:#0D6473;}
-#posters {background-color: #0B363E;}
-#videos {background-color: #080808;}
+#ep {background-color:#0D6473;}
 
 * {
  margin: 0;
@@ -39,8 +37,9 @@ body {
 .header {
  justify-content: center;
  text-align: center;
- padding: 1rem 5%;
- margin-bottom:1rem;
+ padding: 2rem 5%;
+ margin: 1rem;
+ margin-bottom: 0;
 }
 
 .header h1 {
@@ -57,18 +56,6 @@ body {
 }
 
 .container .image-container img {
- width: 100%;
- height: auto;
- margin-bottom: 1rem;
-}
-
-.container .poster-container {
- columns: 25rem 3;
- justify-content: start;
- gap: 1.4rem;
-}
-
-.container .poster-container img {
  width: 100%;
  height: auto;
  margin-bottom: 1rem;
@@ -124,14 +111,13 @@ body {
 }
 
 .seclinks a {
- margin: 1rem;
  text-decoration: none;
  color: white;
  display: block;
 }
 
 .seclinks a:hover {
- color: lightgray;
+ color: white;
 }
 
 .pagelinks button {
@@ -153,10 +139,6 @@ body {
 .buttonp {
  font-family: Verdana, sans-serif;
  color: black;
-}
-
-.music-title {
- text-decoration: none;
 }
 
 .footer {

@@ -48,14 +48,14 @@ button.men {
  background-size: cover;
  border: 5px solid #000000;
  font-size: 18px;
- padding: 4px 20px;
+ padding: 2px 12px;
  text-align: center;
- margin: 0 1vw;
+ margin: 0 0.8vw;
 }
-#shows {
- background-image: url(images/bbgs/50p.webp);
+#music {
+ background-image: url(images/bbgs/music2.webp);
 }
-#shows:hover {
+#music:hover {
  background: #000000;
  cursor:pointer;
 }
@@ -63,6 +63,13 @@ button.men {
  background-image:url(images/bbgs/gallery.webp);
 }
 #gallery:hover {
+ background: #000000;
+ cursor:pointer;
+}
+#shows {
+ background-image: url(images/bbgs/50p.webp);
+}
+#shows:hover {
  background: #000000;
  cursor:pointer;
 }
