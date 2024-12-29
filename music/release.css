@@ -1,0 +1,39 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+@media screen and (max-width: 700px) {
+ .content-container {flex-wrap:wrap;}
+ .cover {width:100%;}
+ .tracklist {width:100%;}
+}
+
+@media screen and (min-width: 701px) {
+ .content-container {flex-wrap:nowrap;}
+ .cover {width:75%;}
+ .tracklist {width:25%;}
+}
+html {
+ background-color: #04b2d9;
+}
+.header {
+ width: 100%;
+ background-color: black;
+}
+.content-container {
+ display: flex;
+ margin: 1rem;
+ gap: 1.4rem;
+}
+.cover {
+ width: 50%;
+}
+.cover img {
+ width: 100%;
+ height: auto;
+}
+.tracklist {
+ justify-content: left;
+ width: 100%;
+}
