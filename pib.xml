@@ -13,10 +13,17 @@
   </url>
   <url>
     <loc>https://itsybitsyband.com/music</loc>
-    <lastmod>2024-12-27</lastmod>
+    <lastmod>2024-12-29</lastmod>
     <image:image>
       <image:loc>https://itsybitsyband.com/images/og/musicshar.png</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://itsybitsyband.com/images/covers/ep.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://itsybitsyband.com/music/itsybitsyep</loc>
+    <lastmod>2024-12-29</lastmod>
     <image:image>
       <image:loc>https://itsybitsyband.com/images/covers/ep.webp</image:loc>
     </image:image>
