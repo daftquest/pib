@@ -54,7 +54,7 @@ body {
 
 .container .image-container {
  columns: 15rem 3;
- gap: 1.4rem;
+ gap: 1.5rem;
 }
 
 .container .image-container img {
