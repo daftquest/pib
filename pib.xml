@@ -30,9 +30,12 @@
   </url>
   <url>
     <loc>https://itsybitsyband.com/shows</loc>
-    <lastmod>2025-01-12</lastmod>
+    <lastmod>2025-01-23</lastmod>
     <image:image>
       <image:loc>https://itsybitsyband.com/images/og/showshar.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://itsybitsyband.com/images/showposters/itsytfpromofinal1.png</image:loc>
     </image:image>
   </url>
   <url>
