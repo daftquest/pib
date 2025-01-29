@@ -142,7 +142,12 @@ body {
 }
 
 .footer {
+ display: flex;
+ padding: 2rem 0;
+ background-color: black;
  position: relative;
+ align-items: center;
+ justify-content: center;
 }
 
 .bottomright {
