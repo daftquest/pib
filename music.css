@@ -50,13 +50,7 @@ body {
  padding: 2rem 5%;
 }
 
-.release-container {
-    width: 100%;
-}
-
 .container .release-container picture {
- width: 100%;
- height: auto;
  margin-bottom: 1rem;
 }
 
