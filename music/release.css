@@ -43,9 +43,8 @@ html {
  margin: 1rem;
  margin-bottom: 0;
 }
-
 .headert h1 {
- font-size: 45px;
+ font-size: 40px;
  font-family: Verdana, sans-serif;
  color: white;
 }
@@ -65,7 +64,7 @@ html {
  align-items: flex-start;
 }
 .tracklist tr {
- font-size: 17px;
+ font-size: 18px;
 }
 .listenbar {
  display: flex;
@@ -79,6 +78,9 @@ td {
  color:white;
  font-family: Verdana, sans-serif;
  padding: 0.5rem 0;
+}
+.detailst {
+ margin: 1rem 0;
 }
 .videos {
  width:100%;
