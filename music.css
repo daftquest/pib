@@ -59,6 +59,11 @@ body {
 
 .container .release-container picture {
  margin-bottom: 1rem;
+ border-radius:1rem;
+}
+
+picture img {
+ border-radius:1rem;
 }
 
 .container .video-container {
@@ -84,6 +89,10 @@ body {
 #navbar {
  position: sticky;
  top: 0;
+}
+
+#navbar img {
+ border-radius:2px;
 }
 
 .container .menubar:after {

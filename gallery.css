@@ -61,7 +61,7 @@ body {
 
 .container .image-container {
  columns: 15rem 3;
- gap: 1.5rem;
+ gap: 1rem;
 }
 
 .container .image-container img {
@@ -70,10 +70,14 @@ body {
  margin-bottom: 1rem;
 }
 
+img {
+ border-radius: 1rem;
+}
+
 .container .poster-container {
  columns: 25rem 3;
  justify-content: start;
- gap: 1.4rem;
+ gap: 1rem;
 }
 
 .container .poster-container img {
@@ -85,7 +89,7 @@ body {
 .container .video-container {
  columns: 33rem 3;
  justify-content: start;
- gap: 1.4rem;
+ gap: 1rem;
 }
 
 .container .video-container iframe {
@@ -105,6 +109,10 @@ body {
 #navbar {
  position: sticky;
  top: 0;
+}
+
+#navbar img {
+ border-radius:2px;
 }
 
 .container .menubar:after {
