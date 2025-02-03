@@ -62,10 +62,6 @@ body {
  border-radius:1rem;
 }
 
-picture img {
- border-radius:1rem;
-}
-
 .container .video-container {
  columns: 33rem 3;
  justify-content: start;

@@ -70,10 +70,6 @@ body {
  margin-bottom: 1rem;
 }
 
-img {
- border-radius: 1rem;
-}
-
 .container .poster-container {
  columns: 25rem 3;
  justify-content: start;
