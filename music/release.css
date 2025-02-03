@@ -3,6 +3,7 @@
  padding: 0;
  box-sizing: border-box;
 }
+
 @media screen and (max-width: 700px) {
  .content-container {flex-wrap:wrap;}
  .cover {width:100%;height:auto;}
@@ -31,7 +32,15 @@
 }
 html {
  background-color: #0385a3;
+ overflow-y: scroll;
+ -ms-overflow-style: none;  /* IE and Edge */
+ scrollbar-width: none;  /* Firefox */
 }
+
+html::-webkit-scrollbar {
+    display: none; /* Chrome and the rest */
+}
+
 .container {
  padding: 2rem 5%;
 }

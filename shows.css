@@ -7,7 +7,15 @@ html {
  background-attachment: fixed;
  background-size: cover;
  background-origin: content-box;
+ overflow-y: scroll;
+ -ms-overflow-style: none;  /* IE and Edge */
+ scrollbar-width: none;  /* Firefox */
 }
+
+html::-webkit-scrollbar {
+    display: none; /* Chrome and the rest */
+}
+
 * {
  margin: 0;
  box-sizing: border-box;
